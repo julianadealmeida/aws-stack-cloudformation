@@ -1,0 +1,10 @@
+## Como reproduzir
+1. Criar um par de chaves no Mac: ssh-keygen -t rsa -b 2048 -f ~/.ssh/minha-chave-ec2
+2. Importar a chave pública na AWS ou criar uma chave diretamente pelo console EC2 chamada `minha-chave-ec2`.
+3. Fazer upload do arquivo `template.yml` no CloudFormation, escolhendo a região São Paulo (sa-east-1).
+4. Aguardar a criação da Stack e copiar o IP público da instância.
+5. Conectar-se via SSH: ssh -i ~/.ssh/minha-chave-ec2 ec2-user@IP_PUBLICO
+6. Acessar no navegador: http://IP_PUBLICO
+## Referências
+- Documentação AWS CloudFormation: https://docs.aws.amazon.com/cloudformation
+
