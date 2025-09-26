@@ -16,6 +16,5 @@ desafio de CloudFormation do Bootcamp Santander Code Girls - DIO: criar uma Stac
 ## Estrutura do Repositório
 - template.yml → Template em YAML
 - template.json → Template em JSON
-- images/ → Capturas de tela da execução
 - notes.md → Anotações sobre boas práticas e aprendizados
 
